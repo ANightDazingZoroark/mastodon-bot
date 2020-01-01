@@ -1,0 +1,13 @@
+{;; add Twitter config to mirror Twitter accounts
+ :twitter {:access-keys
+           {:consumer_key "XXXX"
+            :consumer_secret "XXXX"
+            :access_token_key "XXXX"
+            :access_token_secret "XXXX"}
+           ;; optional, defaults to false
+           :include-replies? false
+           ;; optional, defaults to false
+           :include-rts? false
+           ;; accounts you wish to mirror
+           :accounts ["MCPEDL" "WIRED"]
+}
